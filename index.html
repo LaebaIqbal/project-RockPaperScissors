@@ -3,28 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <h1>ROCK PAPER SCISSORS GAME</h1>
-
-    <div id="hscore">Your Score: </div>
-    <div id="cscore"> Computer Score:</div>
-
-    <div class="res" id = "result"></div>
-
-    <div class="res" id="result2"></div>
-
-    <div class="choice" id="playerChoice"></div>
-    <div> vs. </div>
-    <div class="choice" id="compChoice"></div>
-
-    <button class ="gameButton" id ="r">✊</button>
-    <button class ="gameButton" id ="p">🤚</button>
-    <button class ="gameButton" id ="s">✌️</button>
     
-    <button id="restart">RESTART GAME</button>
+    <div id="big-container">
+    
+        <div id = "small-container">
+
+            <div id ="container1">
+                <div id="hscore">Your Score: </div>
+                <div id="cscore"> Computer Score:</div>
+            </div>
+
+            <div class="message">
+                <div class="res" id = "result"></div>
+            </div>
+
+            <div class="message">
+                <div class="res" id="result2"></div>
+            </div>
+
+            <div id="container2">
+                <div class="choice" id="playerChoice"></div>
+                <div id="vs"> vs. </div>
+                <div class="choice" id="compChoice"></div>
+            </div>
+
+            <div id="container3">
+                <button class ="gameButton" id ="r">✊</button>
+                <button class ="gameButton" id ="p">🤚</button>
+                <button class ="gameButton" id ="s">✌️</button>
+            </div>
+            
+            <div id="container-restart">
+                <button id="restart">RESTART GAME</button>
+            </div>
+        </div>
+    </div>
     <script src= "logic.js" >
 
 

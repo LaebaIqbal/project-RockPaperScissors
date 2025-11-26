@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(to right, rgb(184, 37, 128), rgb(61, 87, 174));
+    color:  rgb(251, 251, 252);
+    font-family: "Zalando Sans Expanded";
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#big-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: 120px auto;
+}
+#small-container{
+    flex: 1;
+}
+#container1{
+    display: flex;
+    justify-content: space-around; 
+}
+
+#hscore,#cscore{
+    font-size: 26px;
+}
+.res{
+    font-size: 18px;
+}
+
+.message{
+    display:flex;
+    justify-content: center;
+    height: 30px;
+    margin: 20px 0;
+    
+}
+
+
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    height: 90px;
+    font-size: 90px;;
+    margin: 50px
+}
+
+
+
+#container3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gameButton{
+    font-size: 46px;
+    width: 150px;
+    min-height: 70px;
+    margin: 30px;
+}
+#container-restart{
+    display: flex;
+    justify-content: center;
+}
+#restart{
+    width: 150px;
+    margin:30px; 
+}
+
+
